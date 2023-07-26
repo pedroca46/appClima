@@ -33,9 +33,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 .cidade{
+    padding: 0;
     padding-left: 10px;
     height: 30px;
     width: 180px;
@@ -44,8 +45,27 @@ body{
     border-radius: 20px;
 }
 .pesquisar{
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
     background-image: url(images/lupa.png);
-    background-size: cover;
+    background-size: 15px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-radius: 50%;
+}
+
+.pesquisar:hover{
+    width: 32px;
+    height: 32px;
+    background-image: url(images/lupa-hover.png);
+    background-size: 15px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px solid rgba(255, 255, 255, 0.808);
+    border-radius: 50%;
 }
