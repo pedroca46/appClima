@@ -14,6 +14,6 @@ async function buscarCidade(cidade) {
 
 
 function cliqueiNoBotao() {
-    const cidade = document.getElementById('cidade').value
+    const cidade = document.getElementById('input-cidade').value
     buscarCidade(cidade)
 }
