@@ -1,5 +1,23 @@
 body{
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
-    background-image: url("https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5MDMzODk3Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container{
+    background: black;
+    opacity: 0.8;
+    height: 200px;
+    width: 300px;
+    border-radius: 5%;
+
+    display: flex;
 }
