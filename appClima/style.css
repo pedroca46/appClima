@@ -1,3 +1,8 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body{
     overflow: hidden;
     height: 100vh;
@@ -13,11 +18,34 @@ body{
 
 
 .main-container{
-    background: black;
-    opacity: 0.8;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.801);
     height: 200px;
     width: 300px;
     border-radius: 5%;
 
     display: flex;
+}
+
+.header{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.cidade{
+    padding-left: 10px;
+    height: 30px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-radius: 20px;
+}
+.pesquisar{
+    width: 25px;
+    height: 25px;
+    background-image: url(images/lupa.png);
+    background-size: cover;
 }
