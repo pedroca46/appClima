@@ -1,5 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgba(245, 245, 245, 0.651);
+    font-weight: bold;
 }
 
 
@@ -20,7 +22,7 @@ body{
 .main-container{
     padding: 20px;
     background: rgba(0, 0, 0, 0.801);
-    height: 200px;
+    height: 250px;
     width: 300px;
     border-radius: 5%;
 }
@@ -73,6 +75,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: start;
+    
+}
+
+.textfield > *{
+    margin: 10px 0px;
 }
 
 .small-box{
