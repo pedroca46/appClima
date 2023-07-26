@@ -23,8 +23,6 @@ body{
     height: 200px;
     width: 300px;
     border-radius: 5%;
-
-    display: flex;
 }
 
 .header{
@@ -39,7 +37,7 @@ body{
     padding: 0;
     padding-left: 10px;
     height: 30px;
-    width: 180px;
+    width: 250px;
     background-color: rgba(0, 0, 0, 0.411);
     border: 1px solid rgba(0, 0, 0, 0.808);
     border-radius: 20px;
@@ -68,4 +66,20 @@ body{
     background-color: rgba(0, 0, 0, 0.411);
     border: 1px solid rgba(255, 255, 255, 0.808);
     border-radius: 50%;
+}
+
+.textfield{
+    height: calc(200px - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.small-box{
+    display: flex;
+    flex-direction: row;
+}
+.weather-icon{
+    width:40px;
+    height:40px;
 }
